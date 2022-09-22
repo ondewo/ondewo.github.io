@@ -1,0 +1,17 @@
+$primary: #014c89;
+$secondary: #bf206b;
+
+.tech-logo {
+	width: 5vw;
+    max-width: 5vh;
+    min-width: 2vw;
+    max-height: 5vh;
+    min-height: 2vw;
+	margin: 1%;
+	padding: 1%;
+	height: 5vw;
+	object-fit: contain;
+    cursor: pointer;
+}
+
+@import 'scss/bootstrap.scss';
