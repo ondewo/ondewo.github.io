@@ -1,1 +1,1 @@
-{number: 'VERSION',link: 'https://github.com/ondewo/ondewo-nlu-api/blob/VERSION/docs/index.html'},
+{number: 'VERSION',link: 'https://github.com/ondewo/ondewo-TECHNOLOGY-api/blob/VERSION/docs/index.html'},
