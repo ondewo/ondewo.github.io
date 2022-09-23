@@ -1,4 +1,4 @@
-,{
+{
 					number: 'VERSION',
-					link: 'URL'
+					link: 'https://github.com/ondewo/ondewo-nlu-api/blob/VERSION/docs/index.html'
 				},
