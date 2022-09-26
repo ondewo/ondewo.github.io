@@ -9,7 +9,7 @@ function setupPage() {
 				<p class="text-primary">Clients SDKs on Github for</p>
 				<div class="d-flex flex-row flex-nowrap">
 					<img
-						class="tech-logo rounded-circle border border-primary"
+						class="tech-logo rounded-circle border border-primary p-2"
 						onclick="openLink('${tech.clients.python}')"
 						src="${ondewo.ondewo.logos.python_logo}"
 						alt="Python Logo"

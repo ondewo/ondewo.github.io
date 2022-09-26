@@ -153,7 +153,7 @@ const ondewo = {
 		python_logo: 'https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg',
 		angular_logo: 'https://angular.io/assets/images/logos/angular/angular.svg',
 		typescript_logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png',
-		nodejs_logo: 'https://cdn-icons-png.flaticon.com/512/919/919825.png',
+		nodejs_logo: 'https://t3.ftcdn.net/jpg/03/52/67/82/240_F_352678266_NFcwIwhhY76mkQItT4lCxyxcCTP3LgvY.jpg',
 		js_logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png'
 	}
 };
