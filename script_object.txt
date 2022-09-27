@@ -1,0 +1,1 @@
+{number: 'VERSION',link: 'https://github.com/ondewo/ondewo-TECHNOLOGY-api/blob/VERSION/docs/index.html'},
