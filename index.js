@@ -42,7 +42,7 @@ window.openLink = (url) => {
 };
 
 window.openVersionLink = (url) => {
-	window.open(`https://htmlpreview.github.io/?${url}`);
+	window.open(`https://ondewo.github.io/docs/${url}`);
 };
 
 setupPage();
