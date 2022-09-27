@@ -42,8 +42,7 @@ window.openLink = (url) => {
 };
 
 window.openVersionLink = (url) => {
-	// ondewo.github.io
-	window.open(`http://localhost:8080/docs/${url}`);
+	window.open(`http://ondewo.github.io/docs/${url}`);
 };
 
 setupPage();
