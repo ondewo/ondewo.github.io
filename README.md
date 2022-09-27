@@ -70,7 +70,7 @@ The buttons that are used for the API-Versions are created dynamically as well, 
 
 ---
 ### Data <a name="data"></a>
-The `data.js` file exports an `ondewo.technology` list, which contains objects that represent 1 API. It also contains an `ondewo.logos` object, with links to all the SDK logos, for easy replacement.
+The `data.js` file exports an `ondewo.technology` list, which contains objects that represent 1 API. It also contains an `ondewo.logos` object, with links to all the SDK logos, for easy replacement. The documentation of every new version of an API gets added automatically by the A.R.P command of the API.
 The structure of the API-objects looks like this:
 ```
 {
@@ -82,7 +82,7 @@ The structure of the API-objects looks like this:
     },
     versions: [
         { number: 'VERSION NUMBER', link: 'LINK TO THE index.html OF THE AUTO-GENERATED DOCUMENTATION
-        (e.g. https://github.com/ondewo/ondewo-nlu-api/blob/3.0.0/docs/index.html)'
+        (e.g. ondewo-nlu-api/3.0.0/)'
         },
         ...
     ],
