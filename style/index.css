@@ -6,6 +6,28 @@
   margin: 1%;
 }
 
+@media screen and (min-width: 770px) {
+  #socialmedia-nav {
+    position: fixed;
+    top: 10px;
+    right: 5px;
+    padding: 2px;
+    background: none;
+  }
+}
+@media screen and (max-width: 770px) {
+  #socialmedia-nav {
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    zoom: 120%;
+    border-top: #014c89 solid 8px;
+  }
+  #main-container {
+    margin-bottom: 60px;
+  }
+}
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors

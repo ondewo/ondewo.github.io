@@ -7,7 +7,7 @@ function setupPage() {
 			<div class="d-flex p-1 bg-white rounded flex-column w-50">
 				<button style="cursor: pointer;" onclick="openLink('${tech.product_link}')" class="alert bg-secondary text-light font-weight-bold">ONDEWO ${tech.name}</button>
 				<p class="text-primary">Clients SDKs on Github for</p>
-				<div class="container d-flex flex-row flex-wrap col-sm-12 col-md-12 pb-2 col-lg-12">
+				<div class="container d-flex flex-row flex-wrap">
 						<img class="tech-logo img img-responsive rounded-circle border border-primary" style="padding: 1%;" onclick="openLink('${tech.clients.python}')" src="${ondewo.ondewo.logos.python_logo}" alt="Python Logo"/>
 						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.angular}')" src="${ondewo.ondewo.logos.angular_logo}" alt="Angular Logo" />
 						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.nodejs}')" src="${ondewo.ondewo.logos.nodejs_logo}" alt="Nodejs Logo" />
@@ -17,7 +17,7 @@ function setupPage() {
 			</div>
 			<div class="d-flex flex-column w-50 m-1 ml-3">
 				<p class="font-weight-bold">Version Documentation</p>
-				<div id="${tech.name}-versions" class="d-flex flex-wrap w-100 bg-red">
+				<div id="${tech.name}-versions" class="d-flex flex-wrap w-100">
 				</div>
 			</div>
 		</div>
