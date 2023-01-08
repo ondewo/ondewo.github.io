@@ -12,6 +12,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-nlu-client-js',
       },
       versions: [
+        { number: '4.0.0', link: 'ondewo-nlu-api/4.0.0/' },
         { number: '3.5.2', link: 'ondewo-nlu-api/3.5.2/' },
         { number: '3.5.1', link: 'ondewo-nlu-api/3.5.1/' },
         { number: '3.5.0', link: 'ondewo-nlu-api/3.5.0/' },
