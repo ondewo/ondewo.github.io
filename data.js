@@ -22,22 +22,10 @@ const ondewo = {
         { number: '3.3.0', link: 'ondewo-nlu-api/3.3.0/' },
         { number: '3.2.0', link: 'ondewo-nlu-api/3.2.0/' },
         { number: '3.1.0', link: 'ondewo-nlu-api/3.1.0/' },
-        {
-          number: '3.0.0',
-          link: 'ondewo-nlu-api/3.0.0/',
-        },
-        {
-          number: '2.15.0',
-          link: 'ondewo-nlu-api/2.15.0/',
-        },
-        {
-          number: '2.14.0',
-          link: 'ondewo-nlu-api/2.14.0/',
-        },
-        {
-          number: '2.13.0',
-          link: 'ondewo-nlu-api/2.13.0/',
-        },
+        { number: '3.0.0', link: 'ondewo-nlu-api/3.0.0/' },
+        { number: '2.15.0', link: 'ondewo-nlu-api/2.15.0/' },
+        { number: '2.14.0', link: 'ondewo-nlu-api/2.14.0/' },
+        { number: '2.13.0', link: 'ondewo-nlu-api/2.13.0/' },
       ],
       end: '',
     },
@@ -53,11 +41,7 @@ const ondewo = {
       },
       versions: [
         { number: '5.0.0', link: 'ondewo-s2t-api/5.0.0/' },
-        { number: '4.1.0', link: 'ondewo-s2t-api/4.1.0/' },
-        {
-          number: '4.0.0',
-          link: 'ondewo-s2t-api/4.0.0/',
-        },
+        { number: '4.0.0', link: 'ondewo-s2t-api/4.0.0/' },
       ],
       end: '',
     },
@@ -72,10 +56,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-t2s-client-js',
       },
       versions: [
-        {
-          number: '5.0.0',
-          link: 'ondewo-t2s-api/5.0.0/',
-        },
+        { number: '5.0.0', link: 'ondewo-t2s-api/5.0.0/' },
       ],
       end: '',
     },
@@ -91,18 +72,9 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-sip-client-js',
       },
       versions: [
-        {
-          number: '4.0.0',
-          link: 'ondewo-sip-api/4.0.0/',
-        },
-        {
-          number: '3.3.0',
-          link: 'ondewo-sip-api/3.3.0/',
-        },
-        {
-          number: '3.2.0',
-          link: 'ondewo-sip-api/3.2.0/',
-        },
+        { number: '4.0.0', link: 'ondewo-sip-api/4.0.0/' },
+        { number: '3.3.0', link: 'ondewo-sip-api/3.3.0/' },
+        { number: '3.2.0', link: 'ondewo-sip-api/3.2.0/' },
       ],
       end: '',
     },
@@ -118,14 +90,8 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-vtsi-client-js',
       },
       versions: [
-        {
-          number: '5.0.0',
-          link: 'ondewo-vtsi-api/5.0.0/',
-        },
-        {
-          number: '4.0.0',
-          link: 'ondewo-vtsi-api/4.0.0/',
-        },
+        { number: '5.0.0', link: 'ondewo-vtsi-api/5.0.0/' },
+        { number: '4.0.0', link: 'ondewo-vtsi-api/4.0.0/' },
       ],
       end: '',
     },
@@ -141,10 +107,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-csi-client-js',
       },
       versions: [
-        {
-          number: '3.0.0',
-          link: 'ondewo-csi-api/3.0.0/',
-        },
+        { number: '3.0.0', link: 'ondewo-csi-api/3.0.0/' },
       ],
       end: '',
     },
@@ -159,21 +122,16 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-survey-client-js',
       },
       versions: [
-        {
-          number: '2.0.0',
-          link: 'ondewo-survey-api/2.0.0/',
-        },
+        { number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' },
       ],
       end: '',
     },
   ],
   logos: {
-    python_logo:
-      'https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg',
+    python_logo: 'https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/python-logo-only.svg',
     angular_logo: 'https://angular.io/assets/images/logos/angular/angular.svg',
     typescript_logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968381.png',
-    nodejs_logo:
-      'https://t3.ftcdn.net/jpg/03/52/67/82/240_F_352678266_NFcwIwhhY76mkQItT4lCxyxcCTP3LgvY.jpg',
+    nodejs_logo: 'https://t3.ftcdn.net/jpg/03/52/67/82/240_F_352678266_NFcwIwhhY76mkQItT4lCxyxcCTP3LgvY.jpg',
     js_logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
   },
 };
