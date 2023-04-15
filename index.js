@@ -6,7 +6,7 @@ function setupPage() {
             <div class="d-flex bg-primary text-white border border-primary flex-row justify-content-center rounded flex-nowrap p-1  m-3">
 			<div class="d-flex p-1 bg-white rounded flex-column w-50">
 				<button style="cursor: pointer;" onclick="openLink('${tech.product_link}','')" class="alert bg-secondary text-light font-weight-bold">ONDEWO ${tech.name}</button>
-				<p class="text-primary">Clients SDKs on Github for</p>
+				<p class="text-primary">Clients SDKs on GitHub for</p>
 				<div class="container d-flex flex-row flex-wrap">
 						<img class="tech-logo img img-responsive rounded-circle border border-primary" style="padding: 1%;" onclick="openLink('${tech.clients.python}','')" src="${ondewo.ondewo.logos.python_logo}" alt="Python Logo"/>
 						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.angular}','')" src="${ondewo.ondewo.logos.angular_logo}" alt="Angular Logo" />
