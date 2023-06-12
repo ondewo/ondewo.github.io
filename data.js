@@ -63,6 +63,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-t2s-client-js',
       },
       versions: [
+        { number: '5.1.0', link: 'ondewo-t2s-api/5.1.0/' },
         { number: '5.0.0', link: 'ondewo-t2s-api/5.0.0/' },
       ],
       end: '',
@@ -132,9 +133,7 @@ const ondewo = {
         typescript: 'https://github.com/ondewo/ondewo-survey-client-typescript',
         js: 'https://github.com/ondewo/ondewo-survey-client-js',
       },
-      versions: [
-          { number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' },
-      ],
+      versions: [{ number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' }],
       end: '',
     },
   ],
