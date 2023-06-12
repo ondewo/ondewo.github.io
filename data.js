@@ -133,7 +133,9 @@ const ondewo = {
         typescript: 'https://github.com/ondewo/ondewo-survey-client-typescript',
         js: 'https://github.com/ondewo/ondewo-survey-client-js',
       },
-      versions: [{ number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' }],
+      versions: [
+          { number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' },
+      ],
       end: '',
     },
   ],
