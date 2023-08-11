@@ -81,6 +81,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-sip-client-js',
       },
       versions: [
+        { number: '5.1.0', link: 'ondewo-sip-api/5.1.0/' },
         { number: '5.0.0', link: 'ondewo-sip-api/5.0.0/' },
         { number: '4.0.0', link: 'ondewo-sip-api/4.0.0/' },
         { number: '3.3.0', link: 'ondewo-sip-api/3.3.0/' },
