@@ -46,6 +46,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-s2t-client-js',
       },
       versions: [
+        { number: '5.5.0', link: 'ondewo-s2t-api/5.5.0/' },
         { number: '5.4.0', link: 'ondewo-s2t-api/5.4.0/' },
         { number: '5.3.0', link: 'ondewo-s2t-api/5.3.0/' },
         { number: '5.2.0', link: 'ondewo-s2t-api/5.2.0/' },
