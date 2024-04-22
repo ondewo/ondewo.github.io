@@ -135,6 +135,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-csi-client-js',
       },
       versions: [
+        { number: '4.0.0', link: 'ondewo-csi-api/4.0.0/' },
         { number: '3.2.0', link: 'ondewo-csi-api/3.2.0/' },
         { number: '3.1.0', link: 'ondewo-csi-api/3.1.0/' },
         { number: '3.0.0', link: 'ondewo-csi-api/3.0.0/' },
