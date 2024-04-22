@@ -109,6 +109,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-vtsi-client-js',
       },
       versions: [
+        { number: '7.0.0', link: 'ondewo-vtsi-api/7.0.0/' },
         { number: '6.9.0', link: 'ondewo-vtsi-api/6.9.0/' },
         { number: '6.8.0', link: 'ondewo-vtsi-api/6.8.0/' },
         { number: '6.7.0', link: 'ondewo-vtsi-api/6.7.0/' },
