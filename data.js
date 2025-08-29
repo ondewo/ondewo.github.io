@@ -76,6 +76,7 @@ const ondewo = {
         js: 'https://github.com/ondewo/ondewo-t2s-client-js',
       },
       versions: [
+        { number: '6.1.0', link: 'ondewo-t2s-api/6.1.0/' },
         { number: '6.0.0', link: 'ondewo-t2s-api/6.0.0/' },
         { number: '5.4.0', link: 'ondewo-t2s-api/5.4.0/' },
         { number: '5.3.0', link: 'ondewo-t2s-api/5.3.0/' },
