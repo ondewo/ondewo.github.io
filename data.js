@@ -13,6 +13,7 @@ const ondewo = {
       },
       versions: [
         { number: '6.13.0', link: 'ondewo-nlu-api/6.13.0/' },
+        { number: '6.12.0', link: 'ondewo-nlu-api/6.12.0/' },
         { number: '6.11.0', link: 'ondewo-nlu-api/6.11.0/' },
         { number: '6.10.0', link: 'ondewo-nlu-api/6.10.0/' },
         { number: '6.9.0', link: 'ondewo-nlu-api/6.9.0/' },
