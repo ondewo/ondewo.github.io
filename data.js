@@ -10,6 +10,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-nlu-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-nlu-client-typescript',
         js: 'https://github.com/ondewo/ondewo-nlu-client-js',
+        php: 'https://github.com/ondewo/ondewo-nlu-client-php',
+        go: 'https://github.com/ondewo/ondewo-nlu-client-go',
+        rust: 'https://github.com/ondewo/ondewo-nlu-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-nlu-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-nlu-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-nlu-client-csharp',
       },
       versions: [
         { number: '7.1.0', link: 'ondewo-nlu-api/7.1.0/' },
@@ -63,6 +69,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-s2t-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-s2t-client-typescript',
         js: 'https://github.com/ondewo/ondewo-s2t-client-js',
+        php: 'https://github.com/ondewo/ondewo-s2t-client-php',
+        go: 'https://github.com/ondewo/ondewo-s2t-client-go',
+        rust: 'https://github.com/ondewo/ondewo-s2t-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-s2t-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-s2t-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-s2t-client-csharp',
       },
       versions: [
         { number: '7.5.0', link: 'ondewo-s2t-api/7.5.0/' },
@@ -93,6 +105,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-t2s-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-t2s-client-typescript',
         js: 'https://github.com/ondewo/ondewo-t2s-client-js',
+        php: 'https://github.com/ondewo/ondewo-t2s-client-php',
+        go: 'https://github.com/ondewo/ondewo-t2s-client-go',
+        rust: 'https://github.com/ondewo/ondewo-t2s-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-t2s-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-t2s-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-t2s-client-csharp',
       },
       versions: [
         { number: '6.6.0', link: 'ondewo-t2s-api/6.6.0/' },
@@ -117,6 +135,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-sip-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-sip-client-typescript',
         js: 'https://github.com/ondewo/ondewo-sip-client-js',
+        php: 'https://github.com/ondewo/ondewo-sip-client-php',
+        go: 'https://github.com/ondewo/ondewo-sip-client-go',
+        rust: 'https://github.com/ondewo/ondewo-sip-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-sip-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-sip-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-sip-client-csharp',
       },
       versions: [
         { number: '5.4.0', link: 'ondewo-sip-api/5.4.0/' },
@@ -140,6 +164,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-vtsi-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-vtsi-client-typescript',
         js: 'https://github.com/ondewo/ondewo-vtsi-client-js',
+        php: 'https://github.com/ondewo/ondewo-vtsi-client-php',
+        go: 'https://github.com/ondewo/ondewo-vtsi-client-go',
+        rust: 'https://github.com/ondewo/ondewo-vtsi-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-vtsi-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-vtsi-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-vtsi-client-csharp',
       },
       versions: [
         { number: '8.4.0', link: 'ondewo-vtsi-api/8.4.0/' },
@@ -172,6 +202,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-csi-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-csi-client-typescript',
         js: 'https://github.com/ondewo/ondewo-csi-client-js',
+        php: 'https://github.com/ondewo/ondewo-csi-client-php',
+        go: 'https://github.com/ondewo/ondewo-csi-client-go',
+        rust: 'https://github.com/ondewo/ondewo-csi-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-csi-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-csi-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-csi-client-csharp',
       },
       versions: [
         { number: '5.2.0', link: 'ondewo-csi-api/5.2.0/' },
@@ -193,6 +229,12 @@ const ondewo = {
         nodejs: 'https://github.com/ondewo/ondewo-survey-client-nodejs',
         typescript: 'https://github.com/ondewo/ondewo-survey-client-typescript',
         js: 'https://github.com/ondewo/ondewo-survey-client-js',
+        php: 'https://github.com/ondewo/ondewo-survey-client-php',
+        go: 'https://github.com/ondewo/ondewo-survey-client-go',
+        rust: 'https://github.com/ondewo/ondewo-survey-client-rust',
+        cpp: 'https://github.com/ondewo/ondewo-survey-client-cpp',
+        java: 'https://github.com/ondewo/ondewo-survey-client-java',
+        csharp: 'https://github.com/ondewo/ondewo-survey-client-csharp',
       },
       versions: [{ number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' }],
       end: '',
@@ -206,6 +248,18 @@ const ondewo = {
     nodejs_logo:
       'https://t3.ftcdn.net/jpg/03/52/67/82/240_F_352678266_NFcwIwhhY76mkQItT4lCxyxcCTP3LgvY.jpg',
     js_logo: 'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+    php_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/php/php-original.svg',
+    go_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/go/go-original.svg',
+    rust_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/rust/rust-original.svg',
+    cpp_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/cplusplus/cplusplus-original.svg',
+    java_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/java/java-original.svg',
+    csharp_logo:
+      'https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/icons/csharp/csharp-original.svg',
   },
 };
 

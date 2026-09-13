@@ -1,5 +1,28 @@
 import * as ondewo from './data.js';
 
+const clientLabels = {
+	python: 'Python',
+	angular: 'Angular',
+	nodejs: 'Nodejs',
+	typescript: 'Typescript',
+	js: 'Javascript',
+	php: 'PHP',
+	go: 'Go',
+	rust: 'Rust',
+	cpp: 'C++',
+	java: 'Java',
+	csharp: 'C#',
+};
+
+function renderClientLogos(tech) {
+	return Object.entries(tech.clients)
+		.map(
+			([client, repoLink]) =>
+				`<img class="tech-logo img img-responsive rounded-circle border border-primary" style="padding: 1%;" onclick="openLink('${repoLink}','')" src="${ondewo.ondewo.logos[`${client}_logo`]}" alt="ONDEWO ${tech.name} ${clientLabels[client] || client} client SDK on GitHub" />`
+		)
+		.join('\n\t\t\t\t\t\t');
+}
+
 function setupPage() {
 	for (let tech of ondewo.ondewo.technology) {
 		const divTemp = `
@@ -8,11 +31,7 @@ function setupPage() {
 				<button style="cursor: pointer;" onclick="openLink('${tech.product_link}','')" class="alert bg-secondary text-light font-weight-bold">ONDEWO ${tech.name}</button>
 				<p class="text-primary">Clients SDKs on GitHub for</p>
 				<div class="container d-flex flex-row flex-wrap">
-						<img class="tech-logo img img-responsive rounded-circle border border-primary" style="padding: 1%;" onclick="openLink('${tech.clients.python}','')" src="${ondewo.ondewo.logos.python_logo}" alt="Python Logo"/>
-						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.angular}','')" src="${ondewo.ondewo.logos.angular_logo}" alt="Angular Logo" />
-						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.nodejs}','')" src="${ondewo.ondewo.logos.nodejs_logo}" alt="Nodejs Logo" />
-						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.typescript}','')" src="${ondewo.ondewo.logos.typescript_logo}" alt="Typescript Logo" />
-						<img class="tech-logo img img-responsive rounded-circle border border-primary" onclick="openLink('${tech.clients.js}','')" src="${ondewo.ondewo.logos.js_logo}" alt="Javascript Logo" />
+						${renderClientLogos(tech)}
 				</div>
 			</div>
 			<div class="d-flex flex-column w-50 m-1 ml-3">
