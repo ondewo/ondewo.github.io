@@ -214,6 +214,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-csi-client-csharp',
       },
       versions: [
+        { number: '5.6.0', link: 'ondewo-csi-api/5.6.0/' },
         { number: '5.2.0', link: 'ondewo-csi-api/5.2.0/' },
         { number: '5.1.0', link: 'ondewo-csi-api/5.1.0/' },
         { number: '5.0.0', link: 'ondewo-csi-api/5.0.0/' },
