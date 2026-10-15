@@ -176,6 +176,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-vtsi-client-csharp',
       },
       versions: [
+        { number: '9.2.0', link: 'ondewo-vtsi-api/9.2.0/' },
         { number: '9.0.0', link: 'ondewo-vtsi-api/9.0.0/' },
         { number: '8.4.0', link: 'ondewo-vtsi-api/8.4.0/' },
         { number: '8.3.0', link: 'ondewo-vtsi-api/8.3.0/' },
