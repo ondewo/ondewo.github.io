@@ -18,6 +18,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-nlu-client-csharp',
       },
       versions: [
+        { number: '7.4.0', link: 'ondewo-nlu-api/7.4.0/' },
         { number: '7.3.0', link: 'ondewo-nlu-api/7.3.0/' },
         { number: '7.2.0', link: 'ondewo-nlu-api/7.2.0/' },
         { number: '7.1.0', link: 'ondewo-nlu-api/7.1.0/' },
