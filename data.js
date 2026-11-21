@@ -81,6 +81,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-s2t-client-csharp',
       },
       versions: [
+        { number: '7.6.0', link: 'ondewo-s2t-api/7.6.0/' },
         { number: '7.5.0', link: 'ondewo-s2t-api/7.5.0/' },
         { number: '7.4.0', link: 'ondewo-s2t-api/7.4.0/' },
         { number: '7.3.0', link: 'ondewo-s2t-api/7.3.0/' },
