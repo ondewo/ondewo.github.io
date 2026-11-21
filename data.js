@@ -148,6 +148,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-sip-client-csharp',
       },
       versions: [
+        { number: '5.7.0', link: 'ondewo-sip-api/5.7.0/' },
         { number: '5.5.2', link: 'ondewo-sip-api/5.5.2/' },
         { number: '5.5.0', link: 'ondewo-sip-api/5.5.0/' },
         { number: '5.4.0', link: 'ondewo-sip-api/5.4.0/' },
