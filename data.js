@@ -118,6 +118,7 @@ const ondewo = {
         csharp: 'https://github.com/ondewo/ondewo-t2s-client-csharp',
       },
       versions: [
+        { number: '6.7.0', link: 'ondewo-t2s-api/6.7.0/' },
         { number: '6.6.0', link: 'ondewo-t2s-api/6.6.0/' },
         { number: '6.2.0', link: 'ondewo-t2s-api/6.2.0/' },
         { number: '6.1.0', link: 'ondewo-t2s-api/6.1.0/' },
