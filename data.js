@@ -251,7 +251,10 @@ const ondewo = {
         java: 'https://github.com/ondewo/ondewo-survey-client-java',
         csharp: 'https://github.com/ondewo/ondewo-survey-client-csharp',
       },
-      versions: [{ number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' }],
+      versions: [
+        { number: '2.1.0', link: 'ondewo-survey-api/2.1.0/' },
+        { number: '2.0.0', link: 'ondewo-survey-api/2.0.0/' },
+      ],
       end: '',
     },
   ],
